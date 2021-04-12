@@ -620,7 +620,7 @@ span.onclick = function() {
     function getLoc(action) {
         var addr = encodeURI(document.getElementById("addr").value);
         console.log(addr);
-        var url = "https://maps.googleapis.com/maps/api/geocode/json?address=" + addr + "&key=AIzaSyA1iSJyi8nOzkGwMWsmrEDQstq6b22-XoI";
+        var url = "https://maps.googleapis.com/maps/api/geocode/json?address=" + addr + "&key=";
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
