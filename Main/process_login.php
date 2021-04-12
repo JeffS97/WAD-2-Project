@@ -23,7 +23,7 @@
     $success = false;
     if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response']))
     {
-          $secret = '6Lf2x-IZAAAAAKgiSKXLf0p4aHiSTjdxEQGJAQM8';
+          $secret = '';
           $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
           $responseData = json_decode($verifyResponse);
 
