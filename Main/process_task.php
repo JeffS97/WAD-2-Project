@@ -541,9 +541,6 @@ elseif($gigArray[0]->getCategoryName()=="miscellaneous"){
     * The key parameter will contain your own API key 
     * The callback parameter executes the initMap() function
     -->
-  <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1iSJyi8nOzkGwMWsmrEDQstq6b22-XoI&callback=initMap">
-    </script>  
  
 <div class="jumbotron" style="width:120%;">          
    
